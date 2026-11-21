@@ -1,0 +1,12 @@
+# Tested with Python 3.10+ (QSVM re-run with the versions noted; QCNN/QGAN were run in Google Colab)
+numpy>=1.26
+matplotlib>=3.8
+scikit-learn>=1.4
+pandas>=2.0
+pennylane>=0.36          # QSVM and QGAN (re-run with 0.44)
+qiskit>=1.0              # circuit drawings (re-run with 2.6)
+pylatexenc>=2.10         # needed by qiskit's 'mpl' drawer
+torch>=2.0               # QCNN and QGAN
+torchvision>=0.15
+tqdm>=4.66
+jupyter
